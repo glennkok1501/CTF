@@ -1,4 +1,4 @@
-# swish swoosh
+# Static
 ___Category:___ Misc
 ## Challenge Details
 swish swoosh
