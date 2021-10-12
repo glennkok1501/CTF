@@ -2,7 +2,7 @@
 ___Category:___ Forensics
 ## Challenge Details
 I lost my music files during one of my streams, can you help me find them?
-[question.pcapng](question.pcapng)
+[question.pcapng](files/question.pcapng)
 ## Hint
 Try inverting one of the audio track
 
@@ -26,5 +26,9 @@ In order to retrieve a clear vision of the message, select ```Effect > Invert```
 
 ## Flag:
 ```sh
+<<<<<<< HEAD
 GCTF{1-l0ve-m0rs3-c0d2}
+=======
+GCTF{1-l0ve-m0rs3-c0d3}
+>>>>>>> f7be994945c7f0fefc177ee2e02873201e8e8006
 ```
