@@ -29,6 +29,8 @@ To bypass this, the originating IP Address has to be modified. Using [Burp Suite
 ![burpsuite](images/burpsuite.png)
 
 ![flag](images/flag.png)
+
+## Flag:
 ```sh
 GCTF{4113n_48duc71n9_c0w5}
 ```

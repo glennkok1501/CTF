@@ -24,7 +24,7 @@ Opening both using [Audacity](https://www.audacityteam.org/) and applying the Sp
 In order to retrieve a clear vision of the message, select ```Effect > Invert``` on one of the files. Next, select both files by holding [SHIFT]. Followed by selecting ```Tracks > Mix > Mix and Render```.
 ![](images/7.png)
 
-Flag:
+## Flag:
 ```sh
 GCTF{1-l0ve-m0rs3-c0d2}
 ```
