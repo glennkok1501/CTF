@@ -26,9 +26,5 @@ In order to retrieve a clear vision of the message, select ```Effect > Invert```
 
 ## Flag:
 ```sh
-<<<<<<< HEAD
-GCTF{1-l0ve-m0rs3-c0d2}
-=======
 GCTF{1-l0ve-m0rs3-c0d3}
->>>>>>> f7be994945c7f0fefc177ee2e02873201e8e8006
 ```
