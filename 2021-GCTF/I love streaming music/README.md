@@ -2,7 +2,7 @@
 ___Category:___ Forensics
 ## Challenge Details
 I lost my music files during one of my streams, can you help me find them?
-[question.pcapng](question.pcapng)
+[question.pcapng](files/question.pcapng)
 ## Hint
 Try inverting one of the audio track
 
