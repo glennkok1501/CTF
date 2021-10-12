@@ -26,5 +26,5 @@ In order to retrieve a clear vision of the message, select ```Effect > Invert```
 
 Flag:
 ```sh
-GCTF{1-l0ve-m0rs3-c0d2}
+GCTF{1-l0ve-m0rs3-c0d3}
 ```
