@@ -14,7 +14,7 @@ Decoded message: ```verysecurepassphrase```
 ![](images/2.png)
 
 Using the text phrase retrieved earlier as the password, ```secret.txt``` was extracted from ```cow.jpg``` using [Steghide](steghide.sourceforge.net)
-![](3/steghide.png)
+![](images/3.png)
 
 secret.txt:
 >Meridius:HKw@8j$-cR
