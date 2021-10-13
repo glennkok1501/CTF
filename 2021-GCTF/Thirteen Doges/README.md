@@ -22,7 +22,7 @@ Using [GHex](https://github.com/GNOME/GHex) again, I noticed an expression that 
 Pasting the text into an online [cipher identifier](https://www.dcode.fr/cipher-identifier) tool, it shows that the best match was [ROT Cipher](https://en.wikipedia.org/wiki/ROT13).  
 ![](images/4.png)
 
-Next, [Cyberchef](https://gchq.github.io/CyberChef/) decrypted the text using ROT13 and reveal the flag.  
+Next, [Cyberchef](https://gchq.github.io/CyberChef/) decrypted the text using ROT13 and revealed the flag.  
 ![](images/5.png)
 
 ## Flag:
