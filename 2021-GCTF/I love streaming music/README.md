@@ -25,6 +25,6 @@ In order to retrieve a clear vision of the message, select ```Effect > Invert```
 ![](images/7.png)
 
 ## Flag:
-```sh
+```
 GCTF{1-l0ve-m0rs3-c0d3}
 ```
