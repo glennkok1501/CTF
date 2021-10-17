@@ -25,7 +25,7 @@ From the image, the password is revealed as ```Baethovensch0punBaethovensch0pun`
 ![](images/1.png)
 
 To decrypt the file and retrieve the flag, this block of code is inserted to ```encrypt.py```
-```sh
+```python
 elif sys.argv[1] == "-d":
     pwd = "Baethovensch0punBaethovensch0pun"
     ssb_b64 = base64.b64encode(pwd.encode())
@@ -43,6 +43,6 @@ python3 encrypt.py -d myflag.txt.en
 ```
 
 ## Flag:
-```sh
+```
 GCTF{FA1r_Pr!c3_5elf_cHeck0u7}
 ```
