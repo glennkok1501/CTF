@@ -10,7 +10,9 @@ Looking at the hexdump using a tool such as [GHex](https://github.com/GNOME/GHex
 ![](images/1.png)
 
 Binwalk was used to extract the contents.
-```binwalk -e doge.jpg```  
+```sh
+binwalk -e doge.jpg
+```  
 ![](images/2.png)
 
 Navigating to the extracted folder, all images looks similar except for ```dog7.jpg```.  
@@ -26,6 +28,6 @@ Next, [Cyberchef](https://gchq.github.io/CyberChef/) decrypted the text using RO
 ![](images/5.png)
 
 ## Flag:
-```sh
+```
 GCTF{d0g3c01n}
 ```
