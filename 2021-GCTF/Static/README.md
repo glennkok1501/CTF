@@ -19,6 +19,6 @@ When finished, Qrzazy box is also able to decode the QR Code which revealed the 
 ![](images/4.png)
 
 ## Flag:
-```sh
+```
 GCTF{h1dd3n_5w1213d_1m4935}
 ```
